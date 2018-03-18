@@ -1,0 +1,28 @@
+.section1{
+  position: relative;
+  img{
+    width: 100%;
+    //margin: 0 auto;
+  }
+  .center-text{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    color: white;
+    text-align: center;
+    width: 100%;
+    cursor: default;
+    .bold-t{
+      font-family: Montserrat-Bold;
+      font-size: 79px;
+      letter-spacing: 14px;
+      line-height: 124px;
+    }
+    .little{
+      font-family: hind-bold;
+      font-size: 22px;
+      letter-spacing: 4px;
+    }
+  }
+}

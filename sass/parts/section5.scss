@@ -1,0 +1,108 @@
+.section5 {
+  font-family: Montserrat-Bold;
+  height: 625px;
+  overflow: hidden;
+  .overflow{
+    width: 100%;
+    height: 90px;
+    z-index: 8;
+    position: relative;
+    background-color: white;
+  }
+  .left-s5 {
+    position: relative;
+    width: 55%;
+    display: inline-block;
+    height: 535px;
+    .ton{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: -10px;
+      left: 0;
+      transform: translate(0, 0);
+      transition: transform 0.4s ease;
+      z-index: 1;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+    }
+    &:hover{
+      .ton{
+        transform: translate(-100%, 0);
+      }
+    }
+  }
+  .right-s5 {
+    width: 44.7%;
+    height: 535px;
+    float: right;
+    display: inline-block;
+    background-color: #2eb2ef;
+    position: relative;
+    z-index: 1;
+    .center-cont{
+      z-index: 5;
+      position: absolute;
+      top: 46%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+      padding-right: 50px;
+      text-align: right;
+      width: 100%;
+      .titl-s5{
+        color: white;
+        font-size: 34.2px;
+        position: relative;
+        margin-bottom: 47px;
+        display: inline-block;
+        cursor: default;
+        &:after {
+          content: "";
+          position: absolute;
+          width: 80px;
+          height: 1px;
+          background-color: white;
+          right: 0;
+          bottom: -30px;
+        }
+      }
+      .text-s5{
+        font-size: 14px;
+        font-family: hind-regular;
+        color: white;
+        line-height: 21px;
+        display: inline-block;
+        width: 93%;
+        margin-bottom: 43px;
+        cursor: default;
+      }
+      .kontakt{
+        background-color: white;
+        color: #2eb2ef;
+        font-size: 14px;
+        padding: 12px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all .4s ease;
+        border: 2px solid #2eb2ef;
+        &:hover{
+          background-color: #2eb2ef;
+          color: white;
+          border: 2px solid white;
+        }
+      }
+    }
+    .angle{
+      margin-top: -50px;
+      margin-left: -35px;
+      background-color: #2eb2ef;
+      width: 100px;
+      height: 800px;
+      transform: rotate(-10deg);
+      position: relative;
+      z-index: 2;
+    }
+  }
+}

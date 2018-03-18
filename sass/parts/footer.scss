@@ -1,0 +1,26 @@
+.footer{
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  width: 100%;
+  height: 120px;
+  background-color: #2b2b2b;
+  color: white;
+  .container{
+    height: 100%;
+    position: relative;
+    .prodaction{
+      position: absolute;
+      top: 50%;
+      left: 50px;
+      transform: translate(0, -50%);
+      cursor: default;
+    }
+    .disclaimer{
+      position: absolute;
+      top: 50%;
+      right: 50px;
+      transform: translate(0, -50%);
+      cursor: default;
+    }
+  }
+}

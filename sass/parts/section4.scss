@@ -1,0 +1,74 @@
+.section4 {
+  font-family: Montserrat-Bold;
+  padding: 70px 0 0;
+  text-align: center;
+  .block {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    &:nth-child(1) .img-block{
+      background-image: url("/media/img/catering-w.png");
+    }
+    &:nth-child(2) .img-block{
+      background-image: url("/media/img/sprzedaz-w.png");
+    }
+    &:nth-child(3) .img-block{
+      background-image: url("/media/img/dostawy-w.png");
+    }
+    .img-block {
+      width: 175px;
+      height: 170px;
+      border-radius: 100px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: 85px auto ;
+      background-color:  #00a1eb;
+      background-position: center;
+      margin-bottom: 40px;
+    }
+    &:hover{
+      .text-block{
+        color: black;
+      }
+      .img-block{
+        border: 3px solid #00a1eb;
+        background-color: white;
+      }
+      &:nth-child(1) .img-block{
+        background-image: url("/media/img/catering-b.png");
+      }
+      &:nth-child(2) .img-block{
+        background-image: url("/media/img/catering-b.png");
+      }
+      &:nth-child(3) .img-block{
+        background-image: url("/media/img/catering-b.png");
+      }
+    }
+    .titl-block {
+      font-size: 24px;
+      color: #00a1eb;
+      margin-bottom: 43px;
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 1px;
+        background-color: #737373;
+        left: 50%;
+        bottom: -20px;
+        transform: translate(-50%, 0);
+      }
+    }
+    .text-block{
+      font-family: hind-regular;
+      font-size: 14px;
+      color: #737373;
+      line-height: 21px;
+    }
+  }
+  .mozliwosci{
+    padding: 15px;
+    margin: 55px auto 0;
+  }
+}

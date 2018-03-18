@@ -1,0 +1,24 @@
+.section6 {
+  margin: 37px 0 40px;
+  text-align: center;
+  ul {
+    width: 24.7%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 0;
+    font-family: Montserrat-Bold;
+    font-size: 22px;
+    color: #737373;
+    li {
+      font-family: hind-regular;
+      font-size: 14px;
+      line-height: 25px;
+      span{
+        font-family: hind-bold;
+      }
+      &:first-child{
+        margin-top: 25px;
+      }
+    }
+  }
+}

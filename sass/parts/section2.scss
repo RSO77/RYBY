@@ -1,0 +1,59 @@
+.section2 {
+  font-family: Montserrat-Bold;
+  padding-top: 130px;
+  padding-bottom: 80px;
+  .left-block {
+    display: inline-block;
+    width: 48%;
+    .titl-s2 {
+      color: #00a1eb;
+      font-size: 34px;
+      margin-bottom: 50px;
+      position: relative;
+      cursor: default;
+      &:after {
+        content: "";
+        position: absolute;
+        width: 85px;
+        height: 1px;
+        background-color: #737373;
+        bottom: -25px;
+        left: 0;
+      }
+    }
+    .text-s2 {
+      cursor: default;
+      font-size: 14px;
+      line-height: 20px;
+      font-family: hind-regular;
+      color: #737373;
+      width: 82%;
+      margin-bottom: 25px;
+    }
+    .tel {
+      font-size: 22px;
+      color: #00a1eb;
+    }
+    .historia{
+      padding: 14px 12px;
+      margin-top: 25px;
+    }
+  }
+  .right-block {
+    position: relative;
+    width: 51%;
+    display: inline-block;
+    float: right;
+    img {
+      width: 100%;
+    }
+    .text {
+      font-size: 22px;
+      position: absolute;
+      bottom: 10%;
+      right: 7%;
+      color: white;
+      cursor: default;
+    }
+  }
+}
